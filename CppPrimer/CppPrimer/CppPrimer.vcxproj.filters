@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\LearnHead">
+      <UniqueIdentifier>{29c50082-9017-4a34-9bcf-2cb69aa6ad0d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Part1.cpp">
@@ -22,6 +25,12 @@
   <ItemGroup>
     <ClInclude Include="choose.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Sales_item.h">
+      <Filter>头文件\LearnHead</Filter>
+    </ClInclude>
+    <ClInclude Include="Version_test.h">
+      <Filter>头文件\LearnHead</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
