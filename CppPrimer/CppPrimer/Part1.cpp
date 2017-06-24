@@ -257,21 +257,8 @@ int main() {
 
 #endif
 
-class CMain{
-public :
-	CMain(int argc, char* args[]) {
-
-	}
-	~CMain() {
-
-	}
-private:
-};
 
 int main(int argc, char* args[]) {
-	CMain *run = new CMain( argc, args);
-	delete run;
-
 #ifdef _DEBUG
 	_CrtSetReportMode(_CRT_ERROR, _CRTDBG_MODE_DEBUG);
 	printf("DEBUG> Memory Leaks: %d\n", _CrtDumpMemoryLeaks());
